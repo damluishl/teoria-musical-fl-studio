@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Notas, tiempo y ritmo - Teoría Musical aplicada a FL Studio</title>
+	<link rel="icon" type="image/png" href="images/iconoWeb.png">
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+
+<body>
+
+<header id="#top" class="col-12 row">
+	<h1>Teoría musical aplicada a FL Studio 20</h1>
+</header>
+<nav class="row">
+	<ul>
+		<li class="col-1"></li>
+		<li class="col-2"><a href="index.html">Inicio</a></li>
+		<li class="col-2"><a class="activa" href="notas.html">Notas, tiempo y ritmo</a></li>
+		<li class="col-2"><a href="">Escalas e intervalos</a></li>
+		<li class="col-2"><a href="">Acordes e inversiones</a></li>
+		<li class="col-2"><a href="">Disonancias</a></li>
+	</ul>
+</nav>
+
+<main class="row">
+
+	<div class="col-1"></div>
+	<article class="col-10">
+		<h1>Notas musicales</h1>
+		<p>De forma genérica, una nota musical es una determinada frecuencia de onda sonora.</p>
+		<p>Se pueden agrupar en conjuntos de siete, comenzando por el centro, que es C5 o DO 5 en FL Studio 20. La <a href="#tabla1">Tabla 1</a> muestra las dos notaciones de notas musicales más empleadas y la <a href="#figura1">Figura 1</a> la distribución en el Piano roll de FL Studio.</p>
+		<table id="tabla1">
+			<caption>Tabla 1 - Notaciones de notas musicales y su equivalencia</caption>
+			<colgroup>
+				<col span="1" style="width: 50%;">
+				<col span="1" style="width: 50%;">
+			</colgroup>
+			<thead>
+				<th>Notación latina</th>
+				<th>Notación americana</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>DO</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>RE</td>
+					<td>D</td>
+				</tr>
+				<tr>
+					<td>MI</td>
+					<td>E</td>
+				</tr>
+				<tr>
+					<td>FA</td>
+					<td>F</td>
+				</tr>
+				<tr>
+					<td>SOL</td>
+					<td>G</td>
+				</tr>
+				<tr>
+					<td>LA</td>
+					<td>A</td>
+				</tr>
+				<tr>
+					<td>SI</td>
+					<td>B</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>Darles esos nombres no es más que una convención para facilitar la comunicación de la música, igual que sucede con el lenguaje hablado.</p>
+		<figure id="figura1">
+			<img src="images/1 - piano roll.png" alt="Teclas del Piano roll" style="width: 33%;">
+			<figcaption>Figura 1 - Piano roll</figcaption>
+		</figure>
+		<p>Si a un instrumento como FL Keys se le aplica en el Mixer un efecto como el Fruity parametrics EQ2 para visualizar las frecuencias, se pueden visualizar las frecuencias sonoras que componen cada nota que se toque primando normalmente una concreta (si aparecen otras es principalmente debido al ruido). Por eso si se coge un sintetizador de ondas sonoras puras como 3x Osc se puede comprobar una única frecuencia de onda destacada (ver <a href="#figura2">Figura 2</a>).</p>
+		<figure id="figura2">
+			<img src="images/2 - frecuencia de nota.png" alt="Frecuencia de nota" style="width: 90%;">
+			<figcaption>Figura 2 - Frecuencia de nota</figcaption>
+		</figure>
+		<p>Al subir una nota una octava se duplica la frecuencia de la nota. Por ejemplo, desde C5 hasta C6.</p>
+		<p>Al bajar una nota una octava se divide a la mitad la frecuencia de la nota. Por ejemplo, desde C5 hasta C4.</p>
+		<p>Hasta ahora esto se ha centrado en las notas blancas. Sumando las negras no habría 7 sino 12 notas en total. Estas permiten notas de frecuencias intermedias a las principales. Esas notas se suelen nombrar en relación a las blancas que aparecen a sus lados. Por ejemplo, en la <a href="#figura3">Figura 3</a> si la nota señalada con la flecha se nombra en relación a C5 su nombre será C5 sostenido o DO 5 sostenido, mientras que si se nombra respecto de D5 será D5 bemol o RE 5 bemol. Son distintos nombres para la misma nota.</p>
+		<p>Es importante comprender que esto se puede aplicar también a las blancas, por lo que es válido, por ejemplo, referirse a C5 como B4 sostenido o a B4 como C5 bemol. La clave es que haya un semitono de diferencia (esto es, teclas contiguas).</p>
+		<figure id="figura3">
+			<img src="images/3 - sostenidos y bemoles.png" alt="sostemidos y bemoles" style="width: 40%;">
+			<figcaption>Figura 3 - Sostenidos y bemoles</figcaption>
+		</figure>
+		<p>Un semitono hacia arriba es subir una tecla hacia arriba, como, por ejemplo, de C5 a C5 sostenido o de E5 a F5.</p>
+		<p>Un semitono hacia abajo es bajar una tecla hacia abajo, como, por ejemplo, de C5 sostenido a C5 o de F5 a E5.</p>
+		<p>Dos semitonos es un tono. Es la distancia que existe entre C5 y D5, por ejemplo.</p>
+		
+		
+	</article>
+	<div class="col-1"></div>
+	
+	
+
+</main>
+
+<footer class="col-12 row">
+	
+	<p>Sitio web creado por Javier Gallego Lorenzo y Luis Hernández López en 2020 como proyecto para el módulo de Lenguaje de Marcas y Sistemas Gestores de Información del Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma del IES Venancio Blanco (Salamanca)</p>
+	<p><a href="#top">Volver arriba</a></p>
+</footer>
+
+</body>
+
+</html>
