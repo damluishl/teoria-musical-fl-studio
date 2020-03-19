@@ -1,0 +1,180 @@
+/* -------------------------------------------------------------------------- */
+/* Hoja de estilos CSS de la web Indice - Teoria musical aplicada a FL Studio */
+/* -------------------------------------------------------------------------- */
+
+html {
+	font-size: 1.2rem;
+	font-family: 'Inter', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/* Grid de columnas para diseño responsivo */
+
+/* Teléfono móvil */
+[class*="col-"] {
+	width: 100%;
+}
+
+/* Ordenador */
+@media only screen and (min-width: 768px){
+	.col-1{width: 8.33%;}
+	.col-2{width: 16.67%;}
+	.col-3{width: 25.00%;}
+	.col-4{width: 33.33%;}
+	.col-5{width: 41.67%;}
+	.col-6{width: 50.00%;}
+	.col-7{width: 58.33%;}
+	.col-8{width: 66.67%;}
+	.col-9{width: 75.00%;}
+	.col-10{width: 83.33%;}
+	.col-11{width: 91.67%;}
+	.col-12{width: 100.00%;}
+}
+
+/* Clearfix para float */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 0.75rem;
+}
+
+/* Estilos concretos */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+abbr {
+	text-decoration: underline;
+}
+
+.activa {
+	background-color: #112d63;
+}
+
+article h1 {
+	text-align: center;
+	font-variant: small-caps;
+	padding-bottom: 1rem;
+}
+
+body {
+	background-color: lightblue;
+	margin: 0 1rem;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: 0.7rem;
+	padding-top: 0.5rem;
+}
+
+figure {
+	padding: 1rem 0;
+}
+
+figure * {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+figure img {
+	width: 50%;
+}
+
+footer {
+	background-color: #5057e5;
+	font-size: 0.75rem;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	text-indent: 0;
+	width: 83.33%;
+	margin: 0 auto;
+}
+
+footer p a {
+	color: white;
+}
+
+header {
+	background-color: #5057e5;
+}
+
+header h1 {
+	color: white;
+	text-align: center;
+	padding-top: 1rem;
+	margin: 0;
+}
+
+main {
+	background-color: white;
+	padding: 0.75rem 0;
+}
+
+nav {
+	background-color: #5057e5;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	display: block;
+	background-color: #1f4aa5;
+	color: white;
+	text-decoration: none;
+	height: 2rem;
+	line-height: 2rem;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 0.8rem;
+	overflow: hidden;
+}
+
+nav a:hover:not(activa) {
+	background-color: #112d63;
+}
+
+p {
+	text-indent: 2rem;
+	text-align: justify;
+	padding: 0.5rem 0;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 1rem auto;
+}
+
+table caption {
+	font-style: italic;
+	font-size: 0.7rem;
+	padding-bottom: 0.5rem;
+}
+
+table td, table th {
+	border: 0.15rem solid black;
+	text-align: center;
+	padding: 0.25rem 0.5rem;
+}
