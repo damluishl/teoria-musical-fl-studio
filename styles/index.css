@@ -3,7 +3,7 @@
 /* -------------------------------------------------------------------------- */
 
 html {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-family: 'Inter', sans-serif;
 }
 
@@ -22,17 +22,18 @@ html {
 /* Ordenador */
 @media only screen and (min-width: 768px){
 	.col-1{width: 8.33%;}
-	.col-2{width: 16.67%;}
+	.col-2{width: 16.66%;}
 	.col-3{width: 25.00%;}
 	.col-4{width: 33.33%;}
-	.col-5{width: 41.67%;}
+	.col-5{width: 41.66%;}
 	.col-6{width: 50.00%;}
 	.col-7{width: 58.33%;}
-	.col-8{width: 66.67%;}
+	.col-8{width: 66.66%;}
 	.col-9{width: 75.00%;}
 	.col-10{width: 83.33%;}
-	.col-11{width: 91.67%;}
+	.col-11{width: 91.66%;}
 	.col-12{width: 100.00%;}
+	html {font-size: 1.2rem};
 }
 
 /* Clearfix para float */
@@ -61,7 +62,8 @@ abbr {
 	background-color: #112d63;
 }
 
-article h1 {
+article h1, section h1 {
+	font-size: 1.5rem;
 	text-align: center;
 	font-variant: small-caps;
 	padding-bottom: 1rem;
@@ -177,4 +179,5 @@ table td, table th {
 	border: 0.15rem solid black;
 	text-align: center;
 	padding: 0.25rem 0.5rem;
+	vertical-align: middle;
 }
