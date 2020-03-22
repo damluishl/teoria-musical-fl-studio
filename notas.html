@@ -21,20 +21,22 @@
 		<li class="col-1"></li>
 		<li class="col-2"><a href="index.html">Inicio</a></li>
 		<li class="col-2"><a class="activa" href="notas.html">Notas, tiempo y ritmo</a></li>
-		<li class="col-2"><a href="">Escalas e intervalos</a></li>
-		<li class="col-2"><a href="">Acordes e inversiones</a></li>
-		<li class="col-2"><a href="">Disonancias</a></li>
+		<li class="col-2"><a href="escalas.html">Escalas e intervalos</a></li>
+		<li class="col-2"><a href="acordes.html">Acordes e inversiones</a></li>
+		<li class="col-2"><a href="disonancias.html">Disonancias y séptimas</a></li>
 	</ul>
 </nav>
 
 <main class="row">
 
-	<div class="col-1"></div>
-	<article class="col-10">
+	
+	<article class="row">
+		<div class="col-1"></div>
+		<section class="col-10">
 		<h1>Notas musicales</h1>
 		<p>De forma genérica, una nota musical es una determinada frecuencia de onda sonora.</p>
 		<p>Se pueden agrupar en conjuntos de siete, comenzando por el centro, que es C5 o DO 5 en FL Studio 20. La <a href="#tabla1">Tabla 1</a> muestra las dos notaciones de notas musicales más empleadas y la <a href="#figura1">Figura 1</a> la distribución en el Piano roll de FL Studio.</p>
-		<table id="tabla1">
+		<table>
 			<caption>Tabla 1 - Notaciones de notas musicales y su equivalencia</caption>
 			<colgroup>
 				<col span="1" style="width: 50%;">
@@ -96,10 +98,71 @@
 		<p>Un semitono hacia arriba es subir una tecla hacia arriba, como, por ejemplo, de C5 a C5 sostenido o de E5 a F5.</p>
 		<p>Un semitono hacia abajo es bajar una tecla hacia abajo, como, por ejemplo, de C5 sostenido a C5 o de F5 a E5.</p>
 		<p>Dos semitonos es un tono. Es la distancia que existe entre C5 y D5, por ejemplo.</p>
-		
-		
+		</section>
+		<div class="col-1"></div>
 	</article>
-	<div class="col-1"></div>
+	
+	<article class="row">
+		<div class="col-1"></div>
+		<section class="col-10">
+		<h1>Tiempo y ritmo</h1>
+		<p>Véase ahora la <a href="#figura4">Figura 4</a>. El tramo de tiempo entre los números 1 y 2 se refiere a un compás. Este compás en concreto está dividido en cuatro subtramos, denominados tiempos. Es un compás de cuatro tiempos. Estos vienen delimitados por líneas oscuras de mayor o menor grosor en FL Studio.</p>
+		<figure id="figura4">
+			<img src="images/4 - compas y tiempos.png" alt="compás y tiempos" style="width: 80%;">
+			<figcaption>Figura 4 - Compás y tiempos</figcaption>
+		</figure>
+		<p>Activando el metrónomo se destacan los tiempos del compás, acentuándose el primero.</p>
+		<p>Un compás de 2 por 4 o 2/4 se refiere a que tiene 2 tiempos y cada uno de ellos tiene la duración de una negra. De esta forma, el numerador indica el número de tiempos por compás y el denominador el valor de duración de nota que dura cada tiempo. De acuerdo a los valores mostrados en la <a href=#tabla2>Tabla 2</a>, un compás de 5/16 sería un compás de 5 tiempos con duración de una semicorchea cada uno.</p>
+		<table id="tabla2">
+			<caption>Tabla 2 - Compás y valor de notas</caption>
+			<thead>
+				<th>Nombre de la figura</th>
+				<th>Figura</th>
+				<th>Valor</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Redonda</td>
+					<td><img src="images/figuraRedonda.png" alt="Figura redonda" style="width: 75%;"></td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>Blanca</td>
+					<td><img src="images/figuraBlanca.png" alt="Figura blanca" style="width: 75%;"></td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>Negra</td>
+					<td><img src="images/figuraNegra.png" alt="Figura negra" style="width: 75%;"></td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>Corchea</td>
+					<td><img src="images/figuraCorchea.png" alt="Figura corchea" style="width: 75%;"></td>
+					<td>8</td>
+				</tr>
+				<tr>
+					<td>Semicorchea</td>
+					<td><img src="images/figuraSemicorchea.png" alt="Figura semicorchea" style="width: 75%;"></td>
+					<td>16</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>En la música electrónica se suele emplear un compás de 4 tiempos. En el vals se emplean de 3 tiempos. Aquí se va a centrar la discusión en la música electrónica.</p>
+		<p>Una nota que abarca todo el compás se conoce como redonda.</p>
+		<p>Una nota que dura la mitad de una redonda, la mitad de un compás o 2 tiempos se conoce como blanca.</p>
+		<p>Una nota que dura la mitad de una blanca o un tiempo es una negra (4 en un compás). Es el ritmo habitual de los kicks.</p>
+		<p>La mitad de una negra es una corchea (entran 8 en un compás), la mitad de una corchea es una semicorchea (entran 16 en un compás), la mitad de una semicorchea es una fusa (entran 32 en un compás) y la mitad de una fusa es una semifusa (entran 64 en un compás).</p>
+		<p>Lo que se presenta en la Figura 5 para mostrar las diferentes duraciones de cada nota en un compás se aplica para hacer lo que se conoce como Snare roll, muy utilizado para dar sensación de aceleración en la canción.</p>
+		<figure id="figura5">
+			<img src="images/6 - snare roll.png" alt="snare roll" style="width: 80%;">
+			<figcaption>Figura 5 - Snare roll</figcaption>
+		</figure>
+		<p>A modo de curiosidad, probar a hacer una base de percusión con el channel FPC utilizando diferentes tiempos y diferentes compases con los instrumentos que aparezcan en los presets para experimentar.</p>
+		</section>
+		<div class="col-1"></div>
+	</article>
+	
 	
 	
 

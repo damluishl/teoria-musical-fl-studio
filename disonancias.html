@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicio - Teoría Musical aplicada a FL Studio</title>
+	<link rel="icon" type="image/png" href="images/iconoWeb.png">
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+
+<body>
+
+<header id="#top" class="col-12 row">
+	<h1>Teoría musical aplicada a FL Studio 20</h1>
+</header>
+<nav class="row">
+	<ul>
+		<li class="col-1"></li>
+		<li class="col-2"><a href="index.html">Inicio</a></li>
+		<li class="col-2"><a href="notas.html">Notas, tiempo y ritmo</a></li>
+		<li class="col-2"><a href="escalas.html">Escalas e intervalos</a></li>
+		<li class="col-2"><a href="acordes.html">Acordes e inversiones</a></li>
+		<li class="col-2"><a class="activa" href="disonancias.html">Disonancias y séptimas</a></li>
+	</ul>
+</nav>
+
+<main class="row">
+
+	<article class="row">
+		<div class="col-1"></div>
+		<section class="col-10">
+		<h1>Disonancias</h1>
+		<p>Una pregunta habitual es: ¿se puede emplear alguna nota que esté fuera de la escala que haya elegido? Esto lo que lleva es a un sonido en disonancia que genera un conflicto.</p>
+		<p>Normalmente para construir melodías sencillas y teniendo la total de seguridad de que se mantenga la armonía del sonido no, pero si se quiere conseguir ciertos efectos de hecho es necesario.</p>
+		<p>Un ejemplo de uso es en la generación de tensión en la melodía que se muestra en la <a href="#figura12">Figura 12</a> para la escala de do mayor. En ella, uno de los acordes tiene una nota fuera de escala, lo que le da al cerebro cierta sensación de incomodidad, que cesa al final con el último acorde que entra completamente dentro de la escala.</p>
+		<figure id="figura12">
+			<img src="images/12 - efecto tension.png" alt="Efecto de tensión" style="width: 75%;">
+			<figcaption>Figura 12 - Efecto de tensión</caption>
+		</figure>
+		<p>Otro uso de las disonancias es para hacer cambios de escala, a menudo empleado en la música pop. La <a href="#figura13">Figura 13</a> muestra un ejemplo.</p>
+		<figure id="figura13">
+			<img src="images/13 - cambio de escala.png" alt="Cambio de escala" style="width: 75%;">
+			<figcaption>Figura 13 - Cambio de escala</caption>
+		</figure>
+		<p>El ejemplo muestra como inicialmente la melodía se construye en la escala de do mayor y lo que se hace a continuación es incorporar varias disonancias de puntuales, en forma de notas sueltas, de forma que dos notas de cada acorde pertenecen a la escala previa y a la posterior a la que se quiere cambiar (do menor) y la otra solo a la escala posterior, creando el conflicto. Este se resuelve al emplear únicamente la escala de DO menor tras los dos acordes. El número de notas comunes en las disonancias es variable, de forma que el productor es el que decide cual es el mejor resultado en cada caso.</p>
+		<p>No obstante, en el cambio de escala, si se tiene un acompañamiento, una línea de bajo, un arpegio, pads, etc. se debe hacer el mismo cambio para mantener la coherencia de la melodía.</p>
+		<p>Es interesante aplicar el resultado de la melodía con el arpegiador activado. En FL Studio 20, al emplear el FL Keys, se activa, en la configuración del channel, Arpeggiator, seleccionando la opción, por ejemplo, de Arpeggio direction: up. Variando el BPM se consiguen resultados interesantes.</p>
+		</section>
+		<div class="col-1"></div>
+	</article>
+	
+	<article class="row">
+		<div class="col-1"></div>
+		<section class="col-10">
+		<h1>Séptimas</h1>
+		<p>Una séptima es una acorde formado al incorporarle el séptimo intervalo a los acordes de tres notas.</p>
+		<p>Se construyen tomando los acordes de triadas ya hechos añadiendo el séptimo intervalo. Aquí se debe distinguir el tipo de séptima formado según la distancia en tonos que haya entre las notas primera y segunda. Si son 2 tonos (4 semitonos) se conocen como mayores y si son 1,5 tonos (3 semitonos) como menores, dominantes o séptimas “a secas” (ver <a href="#figura14">Figura 14</a>).</p>
+		<figure id="figura14">
+			<img src="images/14 - septima mayor y menor.png" alt="Séptima mayor y menor" style="width: 55%;">
+			<figcaption>Figura 14 - Séptimas mayores y menores</caption>
+		</figure>
+		<p>Se pueden hacer variantes. Por ejemplo, a la séptima mayor de la Figura 14 se le puede bajar un semitono a la séptima. De igual forma, a la séptima menor se le puede subir un semitono a la séptima.</p>
+		<p>Al tomar una séptima mayor y ponerla como menor se crea cierta disonancia. Lo mismo ocurre en el menor. Esto es porque a las escalas mayores les queda bien la séptimas mayores, mientras que a las escalas menores les queda bien las séptimas menores.</p>
+		<p>Para pasar una acorde de séptima mayor a menor se bajan un semitono a la primera y tercera nota en orden descendente en el Piano roll.</p>
+		<p>A esto se le pueden aplicar inversiones a las notas, obteniendo una variedad de sonidos casi infinita.</p>
+		</section>
+		<div class="col-1"></div>
+	</article>
+
+</main>
+
+<footer class="row">
+	
+	<p>Sitio web creado por Luis Hernández López en 2020 como proyecto para el módulo de Lenguaje de Marcas y Sistemas Gestores de Información del Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma del IES Venancio Blanco (Salamanca)</p>
+	<p><a href="#top">Volver arriba</a></p>
+</footer>
+
+</body>
+
+</html>
