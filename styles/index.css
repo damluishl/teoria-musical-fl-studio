@@ -111,6 +111,22 @@ footer p a {
 	color: white;
 }
 
+form {
+	margin-top: 0.75rem;
+	padding: 1.5rem;
+	background-color: lightblue;
+	border-radius: 1rem;
+}
+
+form * {
+	text-align: center;
+}
+
+form p {
+	text-indent: 0;
+	padding: 0;
+}
+
 header {
 	background-color: #5057e5;
 }
@@ -120,6 +136,40 @@ header h1 {
 	text-align: center;
 	padding-top: 1rem;
 	margin: 0;
+}
+
+iframe {
+	display: block;
+	margin: 0.5rem auto 0;
+}
+
+input {
+	display: inline-block;
+	margin-right: 0.75rem;
+	margin-bottom: 1rem;
+}
+
+input[type=text] {
+	width: 25%;
+	text-align: left;
+	padding: 0.5rem 0.75rem;
+	transition: width 1s;
+	border: 0.1rem solid #ccc;
+	border-radius: 0.3rem;
+	background-color: #f8f8f8;
+}
+
+input[type=text]:focus {
+	width: 50%;
+	transition: width 1s;
+}
+
+label {
+	font-size: 0.8rem;
+}
+
+label[for=nombre], label[for=sugerencias] {
+	font-size: 1rem;
 }
 
 main {
@@ -180,4 +230,16 @@ table td, table th {
 	text-align: center;
 	padding: 0.25rem 0.5rem;
 	vertical-align: middle;
+}
+
+textarea {
+	text-align: left;
+	height: 3rem;
+	width: 80%;
+	display: block;
+	margin-right: 0.75rem;
+	margin-bottom: 0.75rem;
+	border: 0.1rem solid #ccc;
+	border-radius: 0.3rem;
+	background-color: #f8f8f8;
 }
