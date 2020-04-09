@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Encuesta y contacto - Teoría Musical aplicada a FL Studio</title>
+	<link rel="icon" type="image/png" href="images/iconoWeb.png">
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+
+<body>
+
+<header id="#top" class="col-12 row">
+	<h1>Teoría musical aplicada a FL Studio 20</h1>
+</header>
+<nav class="row">
+	<ul>
+		<li class="col-2"><a href="index.html">Inicio</a></li>
+		<li class="col-2"><a href="notas.html">Notas, tiempo y ritmo</a></li>
+		<li class="col-2"><a href="escalas.html">Escalas e intervalos</a></li>
+		<li class="col-2"><a href="acordes.html">Acordes e inversiones</a></li>
+		<li class="col-2"><a href="disonancias.html">Disonancias y séptimas</a></li>
+		<li class="col-2"><a class="activa" href="encuesta.html">Encuesta y contacto</a></li>
+	</ul>
+</nav>
+
+<main class="row">
+
+	<article class="row">
+	<div class="col-1"></div>
+	<section class="col-10">
+		<h1>Encuesta</h1>
+		<p>¡Me interesa tu opinión! ¡Siempre se puede mejorar algo en relación con la estructura o información del sitio!</p>
+		<form action="mailto:damluishl@gmail.com" target="_blank" method="post">
+			<label for="nombre">Introduce tu nombre:</label>
+			<br>
+			<input type="text" id="nombre" name="nombre" placeholder="Luis">
+			<p>¿Te ha parecido útil el contenido de la web?</p>
+			<label for="nada_util">Nada útil</label>
+			<input type="radio" id="nada_util" name="util" value="nada_util">
+			<label for="poco_util">Poco útil</label>
+			<input type="radio" id="poco_util" name="util" value="poco_util">
+			<label for="bastante_util">Bastante útil</label>
+			<input type="radio" id="bastante_util" name="util" value="bastante_util">
+			<label for="muy_util">Muy útil</label>
+			<input type="radio" id="muy_util" name="util" value="muy_util" checked>
+			<br>
+			<p>¿En qué aspectos de la producción musical te gustaría profundizar?</p>
+			<label for="conceptos_clave">Conceptos clave</label>
+			<input type="checkbox" id="conceptos_clave" name="conceptos_clave" value="true">
+			<label for="sintetizadores">Sintetizadores</label>
+			<input type="checkbox" id="sintetizadores" name="sintetizadores" value="true">
+			<label for="diseno_sonido">Diseño de sonido</label>
+			<input type="checkbox" id="diseno_sonido" name="diseno_sonido" value="true">
+			<br>
+			<label for="sugerencias">Expón a continuación tus sugerencias y preguntas:</label>
+			<textarea id="sugerencias" name="sugerencias" placeholder="Escriba aquí..."></textarea>
+			<input type="submit">
+			<input type="reset">
+		</form>
+	</section>
+	<div class="col-1"></div>
+	</article>
+	
+	<article class="row">
+	<div class="col-1"></div>
+	<section class="col-10">
+		<h1>Enlaces relacionados</h1>
+		<p>Gran parte de la información que se recoge en este sitio está basada en los vídeos del productor y youtuber Olbaid. Puedes echarle un vistazo a sus vídeos aquí abajo.</p>
+		<iframe width="600" height="315" src="https://www.youtube.com/embed/videoseries?list=PLDhUODcit3B6fI5WqoIZeGiSY2oQjIfS-" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</section>
+	<div class="col-1"></div>
+	</article>
+</main>
+
+<footer class="row">
+	
+	<p>Sitio web creado por Luis Hernández López en 2020 como proyecto para el módulo de Lenguaje de Marcas y Sistemas Gestores de Información del Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma del IES Venancio Blanco (Salamanca)</p>
+	<p><a href="#top">Volver arriba</a></p>
+	<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional</a>.</p>
+</footer>
+
+</body>
+
+</html>
