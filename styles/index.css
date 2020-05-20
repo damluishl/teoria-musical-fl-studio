@@ -33,7 +33,7 @@ html {
 	.col-10{width: 83.33%;}
 	.col-11{width: 91.66%;}
 	.col-12{width: 100.00%;}
-	html {font-size: 1.2rem};
+	html {font-size: 1.2rem;}
 }
 
 /* Clearfix para float */
@@ -69,6 +69,11 @@ article h1, section h1 {
 	padding-bottom: 1rem;
 }
 
+audio {
+	display: block;
+	margin: 0 auto;
+}
+
 body {
 	background-color: lightblue;
 	margin: 0 1rem;
@@ -95,8 +100,10 @@ figure img {
 }
 
 footer {
-	background-color: #5057e5;
 	font-size: 0.75rem;
+	background: url("../images/iconoWeb.png") repeat-y scroll left top,
+				url("../images/iconoWeb.png") repeat-y scroll right top;
+	background-color: #5057e5;
 }
 
 footer p {
